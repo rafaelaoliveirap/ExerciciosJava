@@ -1,6 +1,6 @@
 package ExsJava;
 
-import java.util.Scanner;
+import java.util.Scanner; 
 
 public class CaracteristicasPessoas {
 	public static void main(String[] args) {
@@ -8,9 +8,9 @@ public class CaracteristicasPessoas {
 		int i=0, mulheresNervosas=0, homensAgressivos=0, pessoasCalmas=0, pessoasNervosas40=0, pessoasCalmas18=0;
 		
 		for(i=0; i<=2; i++) {
-			System.out.println("Digite seu sexo");
+			System.out.println ("Digite seu sexo");
 			char sexo = resposta.next().charAt(0);
-			System.out.println("Digite sua idade: ");
+			System.out.println ("Digite sua idade: ");
 			int idade = resposta.nextInt();
 			System.out.println("Você se considera 1) calma(o) 2) nervosa(o) ou 3) agressiva(o)?");
 			int emocional = resposta.nextInt();
